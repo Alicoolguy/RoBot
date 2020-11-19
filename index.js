@@ -58,4 +58,4 @@ client.on('message', message => {
     }     
 });
 
-client.login('NzM3NjQ3MTc0OTU5MjM1MTYy.XyAZdw.bdWlurczvk9pvfgNS2LM7d1CvUw') 
+client.login(procces.env.token) 
