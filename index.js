@@ -22,7 +22,7 @@ client.once('ready', () => {
 
 
 client.on("guildMemberAdd", member => {
-    const welcomeChannel = member.guild.channels.cache.find(channel => channel.name === 'welcome') 
+    const welcomeChannel = member.guild.channels.cache.find(channel => channel.name === 'hello') 
     if(!welcomeChannel) return;
     welcomeChannel.send(`Welcome to the server! ${member}, Dont forget to read the rules! :wink:`)
 });
