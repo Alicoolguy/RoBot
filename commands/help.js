@@ -12,7 +12,7 @@ module.exports = {
        .addField('Support Server :thinking:', ' https://discord.gg/Kbss7JG') 
        .setThumbnail('https://media.discordapp.net/attachments/743555490730213457/750216358347669604/VisualEditor_-_Icon_-_Help.svg.png?width=670&height=670')
        .setFooter('Please use R!info for more info')
-       .setColor('RANDOM') 
+       .setColor('Blue') 
        message.channel.send(helpembed) 
     }
 }  

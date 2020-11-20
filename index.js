@@ -16,7 +16,7 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
     console.log('RoBot is Online!')
-    client.user.setActivity('R!help || Coding...')
+    client.user.setActivity(`${client.guilds.cache.size} Servers | R!help`, { type: 'WATCHING' })
 }); 
 
 
